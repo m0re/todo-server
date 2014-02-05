@@ -6,7 +6,9 @@ import grails.rest.Resource;
 class Todo {
 	String text;
 	String status;
+	def test (){
 	
+	}
     static constraints = {
     }
 }
