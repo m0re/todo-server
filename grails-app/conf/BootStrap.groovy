@@ -13,13 +13,14 @@ class BootStrap {
 		);
 		def todoThree = new Todo(
 			text: "Sleep",
-			status: "Active"
+			status: "Done"
 		);
 	
 		todoOne.save flush:true
 		todoTwo.save flush:true
-		todoThree.save flush:true
+		todoThree.save flush:true 
     }
+	
     def destroy = {
     }
 }

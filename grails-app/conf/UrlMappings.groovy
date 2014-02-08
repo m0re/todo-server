@@ -6,7 +6,8 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-
+		"/todo"(resources: "todo")
+		"/todo/$id?"(resource:"todo")
         "/"(view:"/index")
         "500"(view:'/error')
 	}

@@ -66,6 +66,7 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.10.2"
         runtime ":resources:1.2"
 		compile ":jersey-request-builder:1.2.0"
+		runtime ":cors:1.1.4"
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0.1"
         //runtime ":cached-resources:1.1"
